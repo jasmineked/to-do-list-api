@@ -1,12 +1,12 @@
 const mongoose = require('mongoose')
 
-const exampleSchema = new mongoose.Schema({
+const taskSchema = new mongoose.Schema({
   title: {
     type: String,
     required: true
   },
-  text: {
-    type: String,
+  dateDue: {
+    type: Date,
     required: true
   },
   owner: {
@@ -18,4 +18,4 @@ const exampleSchema = new mongoose.Schema({
   timestamps: true
 })
 
-module.exports = mongoose.model('Example', exampleSchema)
+module.exports = mongoose.model('task', exampleSchema)
