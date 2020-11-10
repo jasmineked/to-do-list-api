@@ -5,9 +5,9 @@ const taskSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  dateDue: {
+  dueDate: {
     type: Date,
-    required: false
+    required: true
   },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
