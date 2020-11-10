@@ -11,7 +11,7 @@ curl "${API}${URL_PATH}" \
   --data '{
     "task": {
       "text": "'"${TEXT}"'",
-      "dateDue": "'"${DATEDUE}"'"
+      "dateDue": "'"${DATE}"'"
     }
   }'
 

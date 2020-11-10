@@ -6,8 +6,8 @@ const taskSchema = new mongoose.Schema({
     required: true
   },
   dateDue: {
-    type: String,
-    required: true
+    type: Date,
+    required: false
   },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
@@ -18,4 +18,4 @@ const taskSchema = new mongoose.Schema({
   timestamps: true
 })
 
-module.exports = mongoose.model('task', taskSchema)
+module.exports = mongoose.model('Task', taskSchema)

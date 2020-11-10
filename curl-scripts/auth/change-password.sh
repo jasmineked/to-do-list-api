@@ -11,6 +11,7 @@ curl "${API}${URL_PATH}/" \
   --data '{
     "passwords": {
       "old": "'"${OLDPW}"'",
+      "new": "'"${NEWPW}"'",
       "new": "'"${NEWPW}"'"
     }
   }'
