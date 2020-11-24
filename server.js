@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 
 // require route files
+const listRoutes = require('./app/routes/list_routes')
 const tasksRoutes = require('./app/routes/tasks_routes')
 const userRoutes = require('./app/routes/user_routes')
 
