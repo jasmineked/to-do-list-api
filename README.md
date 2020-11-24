@@ -15,9 +15,9 @@ Organizing tasks with a list can make everything more manageable and make one fe
 
 *Change password:* sign up for an account & sign in (or sign in if user has already created an account) and upon successful log-in, a navigation bar will appear. Click SETTINGS then select CHANGE PASSWORD & a form with three text fields should appear. fill in as instructed (first field: old password, second field: new password, third field: confirm new password) and click 'confirm'.
 
-*Create new task:* Click on the CREATE. Enter the task of choice & the date it is due. Both are required to successfully create a new task.
+*Create new task:* Click on the CREATE. Enter the task & the date it is due. Both are required to successfully create a new task.
 
-*View all tasks:* Click on the VIEW ALL TASKS. Tasks should be listed below.
+*View all tasks:* Click on TASKS. Tasks should be listed below.
 
 *Show one task:* Enter the ID of the task you are searching for & click submit. Task will appear below.
 
@@ -39,7 +39,7 @@ Organizing tasks with a list can make everything more manageable and make one fe
 - Reformat the date element and add an optional field for time.
 - Make the search (SHOW), update (PATCH) & delete (DESTROY) actions more user friendly (eg., implement a checkbox so users can select the task(s).
 - Index all user's task by default & categorize them by lists that displays upon log-in
-Unfortunately, I was not able to figure out how to implement my LIST model without making a mess. 
+Unfortunately, I was not able to figure out how to implement my LIST model without making a mess.
 
 *** Technologies used: ***
 JavaScript
