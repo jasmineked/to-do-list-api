@@ -63,7 +63,7 @@ app.use(requestLogger)
 
 // register route files
 // app.use(profileRoutes)
-app.use(listsRoutes)
+app.use(listRoutes)
 app.use(tasksRoutes)
 app.use(userRoutes)
 
