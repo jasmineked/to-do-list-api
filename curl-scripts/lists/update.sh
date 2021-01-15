@@ -8,11 +8,12 @@ curl "${API}${URL_PATH}/${ID}" \
   --request PATCH \
   --header "Content-Type: application/json" \
 --header "Authorization: Bearer ${TOKEN}" \
---data '{
-      "task": {
-        "text": "'"${TEXT}"'",
-        "datedue": "'"${DATEDUE}"'"
-      }
+  --data '{
+    "list": {
+      "name": "'"${NAME}"'",
+      "description": "'"${DESCRIPTION}"'",
+      "tasks": "'"${TASK}"'"
+    }
   }'
 
 echo

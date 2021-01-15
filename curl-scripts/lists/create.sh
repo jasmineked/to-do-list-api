@@ -10,8 +10,9 @@ curl "${API}${URL_PATH}" \
   --header "Authorization: Bearer ${TOKEN}" \
   --data '{
     "list": {
-      "category": "'"${CATEGORY}"'",
-      "description": "'"${DESCRIPTION}"'"
+      "name": "'"${NAME}"'",
+      "description": "'"${DESCRIPTION}"'",
+      "tasks": "'"${TASK}"'"
     }
   }'
 
