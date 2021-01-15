@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const listSchema = new mongoose.Schema({
-  category: {
+  name: {
     type: String,
     required: true
   },
@@ -9,7 +9,12 @@ description: {
     type: String,
     required: false
   },
-  owner: {
+  task: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Task',
+    required: false
+  },
+owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true
