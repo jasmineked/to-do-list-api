@@ -7,7 +7,7 @@ const taskSchema = new mongoose.Schema({
   },
   dueDate: {
     type: Date,
-    required: true
+    required: false
   },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
