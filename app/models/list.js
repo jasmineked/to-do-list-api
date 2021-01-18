@@ -9,7 +9,7 @@ description: {
     type: String,
     required: false
   },
-  task: {
+  tasks: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Task',
     required: false
