@@ -5,7 +5,7 @@ const listSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-description: {
+  description: {
     type: String,
     required: false
   },
@@ -14,7 +14,7 @@ description: {
     ref: 'Task',
     required: false
   },
-owner: {
+  owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true
